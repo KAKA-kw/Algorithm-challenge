@@ -15,3 +15,8 @@ def solution(priorities, location):
             # 현재 프로세스의 위치가 원하는 위치인지 확인
             if cur[0] == location:
                 return answer  # 원하는 위치의 프로세스가 출력되었다면 해당 위치를 반환하고 종료
+
+# any()
+# 하나 이상의 인자를 받음.
+# 인자로 받은 iterable(반복 가능한 객체) 중, 하나 이상의 요소가 True 값을 가지면 True를 반환
+# 모든 요소가 False인 경우에는 False를 반환
