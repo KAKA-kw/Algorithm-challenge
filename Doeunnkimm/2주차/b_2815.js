@@ -1,49 +1,34 @@
-const input = require('fs').readFileSync('b_2815.txt').toString().trim().split('\n')
-const [C, R] = input
+const input = require('fs').readFileSync('./input/b_2815.txt').toString().trim().split('\n')
+const [cipher, real] = input
 
-const cipher = C.split(' ')
-const real = R.split(' ')
+// 맨 끝 $ 문자열 제거, 공백을 기준으로 배열 생성
+const cipher_arr = cipher.substring(0, cipher.length - 2).split(' ')
+const real_arr = real.substring(0, real.length - 2).split(' ')
 
-if (cipher.length === real.length) return console.log(1)
+let index = 0
+const map = new Map() // 사전 -> { key: 실제 단어, value: 암호화된 단어 }
+let cipherString = ''
 
-// $ 문자열 제거
-cipher.pop()
-real.pop()
+while (index !== cipher_arr.length - real_arr.length) {
+  const temp = cipher_arr.slice(index, index + real_arr.length).join('')
 
-// real 문자열을 맵 구조에 삽입
-let i = 0
-const charMap = new Map()
-let realToNumString = ''
+  for (let i = 0; i < real_arr.length; i++) {
+    const realToCipher = map.get(real_arr[i])
+    if (realToCipher !== undefined && realToCipher !== temp[i]) {
+      // 이미 사전에 있는데, 사전에 있는 단어와 실제 암호화된 단어와 다르다면 break
+      break
+    } else {
+      // 사전에 없다면
+      map.set(real_arr[i], temp[i])
+      cipherString += temp[i]
+    }
 
-real.forEach((el) => {
-  if (charMap.get(el) === undefined) {
-    charMap.set(el, i)
-    i++
-  }
-  realToNumString += charMap.get(el)
-})
-
-// cipher된 문자열을 돌면서 대조하기
-let ans = 0
-while (ans !== cipher.length - real.length) {
-  // 맵 채우기
-  let j = 0
-  const cipherMap = new Map()
-
-  for (let i = ans; i < cipher.length; i++) {
-    if (cipherMap.get(cipher[i % cipher.length]) === undefined) {
-      cipherMap.set(cipher[i], j)
-      j++
+    if (cipherString === temp) {
+      console.log(index + 1)
+      return
     }
   }
-
-  const cipherToNumString = cipher.map((ci) => cipherMap.get(ci)).join('')
-
-  const index = cipherToNumString.indexOf(realToNumString)
-  if (index < 0) {
-    ans++
-  } else {
-    console.log(index + 1)
-    break
-  }
+  index++
+  map.clear() // init
+  cipherString = '' // init
 }
