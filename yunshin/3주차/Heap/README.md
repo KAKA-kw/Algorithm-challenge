@@ -20,7 +20,7 @@
 
   <div align="center">
 
-  ![정렬법_간_시간복잡도](https://github.com/KAKA-kw/Algorithm-challenge/assets/50646145/b7d321a2-ed80-46e1-9abd-c3b2347b8b38)
+![정렬법_간_시간복잡도](https://github.com/KAKA-kw/Algorithm-challenge/assets/50646145/de44f507-0a6f-4cc5-8b4e-560c52f85cec)
 
   </div>
 
@@ -37,23 +37,24 @@
 
 <br/>
 
-  <div align="center">
-  
-  _Heap 의 값을 꺼내서 비교하고 다시 push 한 경우_
+_Heap 의 값을 꺼내서 비교하고 다시 push 한 경우_
+
+<div align="center">
+
   <img width="593" alt="스크린샷 2023-09-03 오후 8 11 20" src="https://github.com/KAKA-kw/Algorithm-challenge/assets/50646145/19cd0815-a4a4-4f76-b11f-0c937e58b3ae">
 
   <img width="684" alt="스크린샷 2023-09-03 오후 8 14 38" src="https://github.com/KAKA-kw/Algorithm-challenge/assets/50646145/e64ba45c-cbd1-4bbe-a7e9-d16619df6f5f">
   
-  </div>
+</div>
 
 <br/>
 
-  <div align="center">
-  
-   _최상단의 값을 확인하고, 필요한 경우에만 pop & push_
-<img width="571" alt="스크린샷 2023-09-03 오후 8 13 40" src="https://github.com/KAKA-kw/Algorithm-challenge/assets/50646145/e41a8d1c-6c80-4b1e-b356-db06e3b2864f">
+_최상단의 값을 확인하고, 필요한 경우에만 pop & push_
 
-<img width="703" alt="스크린샷 2023-09-03 오후 8 14 33" src="https://github.com/KAKA-kw/Algorithm-challenge/assets/50646145/98870427-9842-4bbf-aa76-2f449b4359a4">
+<div align="center">
+
+  <img width="571" alt="스크린샷 2023-09-03 오후 8 13 40" src="https://github.com/KAKA-kw/Algorithm-challenge/assets/50646145/e41a8d1c-6c80-4b1e-b356-db06e3b2864f">
+
+  <img width="703" alt="스크린샷 2023-09-03 오후 8 14 33" src="https://github.com/KAKA-kw/Algorithm-challenge/assets/50646145/98870427-9842-4bbf-aa76-2f449b4359a4">  
   
-  
-  </div>
+</div>
