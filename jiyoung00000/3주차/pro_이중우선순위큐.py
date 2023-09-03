@@ -19,11 +19,17 @@ def solution(operations):
         elif cmd == "D" and num == 1: 
             if max_heap: 
                 heapq.heappop(max_heap) 
+                if len(max_heap) == 0 or -max_heap[0] < min_heap[0]:
+                    min_heap = []
+                    max_heap = []
         elif cmd == "D" and num == -1: 
             if min_heap: 
                 heapq.heappop(min_heap) 
+                if len(min_heap) == 0 or -max_heap[0] < min_heap[0]:
+                    min_heap = []
+                    max_heap = []   
 
-    if not max_heap or not min_heap: 
+    if len(min_heap) == 0:
         return [0, 0]
     else:
         return [-max_heap[0], min_heap[0]] 
