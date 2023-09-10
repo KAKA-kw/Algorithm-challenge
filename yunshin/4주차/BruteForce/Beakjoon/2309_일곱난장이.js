@@ -1,5 +1,5 @@
 // DFS
-const input = require('fs').readFileSync('yunshin/4주차/BruteForce/Programmers/input/b_2309.txt').toString().trim().split('\n')
+const input = require('fs').readFileSync('yunshin/4주차/BruteForce/Beakjoon/input/b_2309.txt').toString().trim().split('\n')
 const visited = new Array(9).fill(false)
 
 const result = []

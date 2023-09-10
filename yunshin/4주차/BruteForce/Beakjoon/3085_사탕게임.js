@@ -1,4 +1,4 @@
-const input = require('fs').readFileSync('yunshin/4주차/BruteForce/Programmers/input/b_3085.txt').toString().trim().split('\n')
+const input = require('fs').readFileSync('yunshin/4주차/BruteForce/Beakjoon/input/b_3085.txt').toString().trim().split('\n')
 
 const n = Number(input[0])
 graph = []
