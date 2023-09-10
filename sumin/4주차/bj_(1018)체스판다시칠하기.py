@@ -22,7 +22,7 @@ n, m = map(int, input().split())
 graph = []
 for _ in range(n):
   graph.append(list(input()))
-  
+
 result = n*m
 for i in range(n-8+1):
   for j in range(m-8+1):
