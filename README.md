@@ -69,6 +69,8 @@ e.g. # 1주차 Doeunnkimm (김도은) 과제 업로드
 
 ## 😁 스터디 구성원
 
-| <a href="https://github.com/Doeunnkimm"><img src="https://avatars.githubusercontent.com/u/112946860?v=4" width="150" height="150"/></a> | <a href="https://github.com/TransparentDeveloper"><img src="https://avatars.githubusercontent.com/u/50646145?v=4" width="150" height="150"/></a> | <a href="https://github.com/jiyoung00000"><img src="https://avatars.githubusercontent.com/u/104538679?v=4" width="150" height="150"/></a> | <a href="https://github.com/suminhan123"><img src="https://avatars.githubusercontent.com/u/98216274?v=4" width="150" height="150"/></a> | <a href="https://github.com/smilevictory"><img src="https://avatars.githubusercontent.com/u/113532580?v=4" width="150" height="150"/></a> |
-| :--: | :--: | :--: | :--: | :--: |
-| @Doeunnkimm | @TransparentDeveloper | @jiyoung00000 | @suminhan123 | @smilevictory |
+| <a href="https://github.com/Doeunnkimm"><img src="https://avatars.githubusercontent.com/u/112946860?v=4" width="150" height="150"/></a> | <a href="https://github.com/TransparentDeveloper"><img src="https://avatars.githubusercontent.com/u/50646145?v=4" width="150" height="150"/></a> | <a href="https://github.com/jiyoung00000"><img src="https://avatars.githubusercontent.com/u/104538679?v=4" width="150" height="150"/></a> |
+| :--: | :--: | :--: |
+| @Doeunnkimm | @TransparentDeveloper | @jiyoung00000 | 
+| <a href="https://github.com/suminhan123"><img src="https://avatars.githubusercontent.com/u/98216274?v=4" width="150" height="150"/></a> | <a href="https://github.com/smilevictory"><img src="https://avatars.githubusercontent.com/u/113532580?v=4" width="150" height="150"/></a> |
+| @suminhan123 | @smilevictory |
