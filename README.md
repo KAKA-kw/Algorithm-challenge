@@ -9,7 +9,7 @@
 | 1주차  | 자료구조     | Stack, Queue                   |  ✅   |
 | 2주차  | 자료구조     | Map, Deque                 |  ✅   |
 | 3주차  | 자료구조     | Heap, PriorityQueue          |  ✅   |
-| 4주차  | 완전 탐색    | BruteForce                   |  ⬜️   |
+| 4주차  | 완전 탐색    | BruteForce                   |  ✅   |
 | 5주차  | 완전 탐색    | BFS, DFS                     |  ⬜️   |
 | 6주차  | 완전 탐색    | BackTracking                 |  ⬜️   |
 | 7주차  | 동적계획법   | DP                           |  ⬜️   |
