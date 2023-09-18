@@ -10,14 +10,14 @@
 | 2주차  | 자료구조     | Map, Deque                 |  ✅   |
 | 3주차  | 자료구조     | Heap, PriorityQueue          |  ✅   |
 | 4주차  | 완전 탐색    | BruteForce                   |  ✅   |
-| 5주차  | 완전 탐색    | BFS, DFS                     |  ⬜️   |
-| 6주차  | 완전 탐색    | BackTracking                 |  ⬜️   |
-| 7주차  | 동적계획법   | DP                           |  ⬜️   |
-| 8주차  | 최단경로     | Floyd-Warshall, Bellman-Ford |  ⬜️   |
-| 9주차  | 최단경로     | Dijkstra                     |  ⬜️   |
-| 10주차 | 최소신장트리 | Kruskal, Prim                |  ⬜️   |
-| 11주차 | Greedy       |                              |  ⬜️   |
+| 5~6주차  | 완전 탐색    | BFS, DFS                     |  ⬜️   |
+| 7주차  | 완전 탐색    | BackTracking                 |  ⬜️   |
+| 8주차  | 동적계획법   | DP                           |  ⬜️   |
+| 9주차  | 최단경로     | Floyd-Warshall, Bellman-Ford |  ⬜️   |
+| 10주차  | 최단경로     | Dijkstra                     |  ⬜️   |
+| 11주차 | 최소신장트리 | Kruskal, Prim                |  ⬜️   |
 | 12주차 | Greedy       |                              |  ⬜️   |
+| 13주차 | Greedy       |                              |  ⬜️   |
 
 <br>
 
