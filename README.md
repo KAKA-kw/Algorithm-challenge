@@ -10,7 +10,7 @@
 | 2주차  | 자료구조     | Map, Deque                 |  ✅   |
 | 3주차  | 자료구조     | Heap, PriorityQueue          |  ✅   |
 | 4주차  | 완전 탐색    | BruteForce                   |  ✅   |
-| 5~6주차  | 완전 탐색    | BFS, DFS                     |  ⬜️   |
+| 5~6주차  | 완전 탐색    | BFS, DFS                     |  ✅   |
 | 7주차  | 완전 탐색    | BackTracking                 |  ⬜️   |
 | 8주차  | 동적계획법   | DP                           |  ⬜️   |
 | 9주차  | 최단경로     | Floyd-Warshall, Bellman-Ford |  ⬜️   |
