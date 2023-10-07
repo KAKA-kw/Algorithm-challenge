@@ -42,9 +42,14 @@
 
 <br>
 
-## 👏 컨벤션 (반드시 확인해주세요!)
+## 👏 KAKA 시작하기
 
-### Commit
+### 1. Branch & Folder
+
+- KAKA를 처음 시작하셨나요? 그럼 **깃허브 ID**로 `Branch`와 `Folder`를 생성합니다.
+- **본인의 Branch에서 본인의 폴더에** 문제 풀이 코드를 작성해 올려주세요 :)
+
+### 2. Commit
 
 - feat - 문제 풀이 추가
   
@@ -53,16 +58,38 @@
   e.g. feat: 프로그래머스 분해합 문제 풀이 추가
   ```
 - docs - 문서 관련 내용 추가
+- fix - 문제 풀이 수정
 - chore - 그 외
 
-
-
-
-### Pull Request
+### 3. Pull Request
 \# [N주차] [ID] [(이름)] 과제 업로드
 
 ```
 e.g. # 1주차 Doeunnkimm (김도은) 과제 업로드
+```
+
+### 4. merge
+
+```
+✨ 본인의 PR은 본인이 merge를 합니다.
+   단! 모든 멤버들이 코멘트 작성을 마무리하면요!
+```
+
+PR에 나를 제외한 **모든 멤버들이 코멘트를 달아주면** PR 제목과 동일하게 merge 메세지로 하여 merge를 마무리합니다.
+아래는 예시입니다.
+
+before
+
+<img width="930" alt="image" src="https://github.com/KAKA-kw/Algorithm-challenge/assets/112946860/fcf6e6bc-876e-404b-80ff-54689a24f8b0">
+
+after
+
+<img width="944" alt="image" src="https://github.com/KAKA-kw/Algorithm-challenge/assets/112946860/5ed9e43c-816b-47ee-9240-ae98567d810f">
+
+
+---
+```
+매주 2번과 3번과 4번을 반복합니다 :)
 ```
 
 <br>
